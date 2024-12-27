@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+   <div class="video-background">
+    <video autoplay loop muted plays-inline class="background-video">
+        <source src="theme.mp4" type="video/mp4">
+    </video>
+   </dic>
+    <header>
+        <h1>SKULL CRUSHERS </h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about">
+        <p>
+        The three of us became friends only after starting college. Since our wavelengths aligned, we quickly grew close. We've shared countless fun moments and done some crazy things together, while also achieving several milestones along the way. We all share a common goal: to secure placement in a good company after these four years and to maintain our strong friendship well into the future.
+        </p></div>
+        <a href="karthik balaji.html">Karthik Balaji</a><br>
+        <a href="gokulanand.html">Gokulanand</a><br>
+        <a href="nilavan.html">Nilavan</a>
+    </section>
+    <section id="projects">
+        <h2>Future Projects </h2>
+        <div class="project">
+            AI for Drug Discovery:Develop a model to predict molecular properties and assist in drug discovery.<br>
+            AI in Healthcare-Disease Diagnosis:Use machine learning to build a system for diagnosing diseases like diabetes, heart conditions, or cancer using medical data.<br>
+            Fake News Detection:Use NLP techniques to classify news articles as real or fake.Dataset: LIAR or FakeNewsNet.
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with us at <a href="mailto:youremail@example.com">gokulanand.m2024aiml@sece.ac.in (or)
+        karthikbalaji.s.v2024aiml@sece.ac.in (or)
+        nilavan.a2024aiml@sece.ac.in </a></p>
+    </section>
+
+    <script>
+        // Smooth scrolling animation (optional, if not using CSS property)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
