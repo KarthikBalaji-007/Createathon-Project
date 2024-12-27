@@ -3,6 +3,25 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
+    <style>
+        .links{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+        }
+        .links a{
+            text-decoration: none;
+            font-size: 24px;
+            color: rgb(249, 180, 180);
+            transition: letter-spacing 0.7s ease-in-out , color 0.7s ease-in-out;
+        }
+        .links a:hover{
+            letter-spacing: 2px;
+            color: purple;
+        }
+    </style>
 </head>
 <body>
    <div class="video-background">
@@ -11,7 +30,7 @@
     </video>
    </div>
     <header>
-        <h1>SKULL CRUSHERS </h1>
+        <h1 style="color: cyan;" >SKULL CRUSHERS </h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -21,17 +40,20 @@
         </nav>
     </header>
     <section id="about">
-        <h2>About Us</h2>
+        <h2 style="color: cyan;">About Us</h2>
         <div class="about">
         <p>
         The three of us became friends only after starting college. Since our wavelengths aligned, we quickly grew close. We've shared countless fun moments and done some crazy things together, while also achieving several milestones along the way. We all share a common goal: to secure placement in a good company after these four years and to maintain our strong friendship well into the future.
         </p></div>
-        <a href="karthik balaji.html">Karthik Balaji</a><br>
-        <a href="gokulanand.html">Gokulanand</a><br>
-        <a href="nilavan.html">Nilavan</a>
+        
+        <div class="links">
+            <a href="karthik balaji.html">Karthik Balaji</a><br>
+            <a href="gokulanand.html">Gokulanand</a><br>
+            <a href="nilavan.html">Nilavan</a>
+        </div>
     </section>
-    <section id="projects">
-        <h2>Future Projects </h2>
+    <section id="projects" >
+        <h2 style="color: cyan;">Future Projects </h2>
         <div class="project">
             AI for Drug Discovery:Develop a model to predict molecular properties and assist in drug discovery.<br>
             AI in Healthcare-Disease Diagnosis:Use machine learning to build a system for diagnosing diseases like diabetes, heart conditions, or cancer using medical data.<br>
@@ -39,9 +61,9 @@
         </div>
     </section>
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Get in touch with us at :<a href="mailto:youremail@example.com"><br>
-        karthikbalaji.s.v2024aiml@sece.ac.in<br>
+        <h2 style="color: cyan;">Contact</h2>
+        <p>Get in touch with us at :<a href="mailto:youremail@example.com"style="color:orange;"><br>
+        karthikbalaji.sv2024aiml@sece.ac.in<br>
         gokulanand.m2024aiml@sece.ac.in<br>
         nilavan.a2024aiml@sece.ac.in </a></p>
     </section>
