@@ -42,7 +42,6 @@ header {
  .about{
     text-align: left;
 }
-
 /* Navigation styling */
 nav ul {
     list-style: none;
@@ -68,14 +67,12 @@ section {
     text-align: center;
     color: #fff;
 }
-
 /* Project card styling */
 .project {
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 8px;
+    
     padding: 1rem;
     margin: 1rem 0;
-    color: #000;
+    color:white;
 }
 
 /* Smooth scrolling */
